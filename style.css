@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.clock-body {
+  height: 20rem;
+  width: 20rem;
+  border-radius: 50%;
+  background-color: black;
+  margin: auto;
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  
+}
+h1{
+    margin: auto;
+}
+#timer{
+    
+    display: flex;
+    justify-content: center;
+}
+#btn {
+  position: absolute;
+  bottom: 10%;
+  left: 43%;
+  font-size: 3rem;
+  color: red;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+
+}
+#timer{
+    color: red;
+    font-size: 4rem;
+}
